@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-3">
+        <h2>Neo Gravatar</h2>
+        <ul>
+            <li>Upload your image to the blockchain</li>
+            <li>Show your gravatar next to your NEO address</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <h2>Upload your picture</h2>
+        <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="Upload">
+          <div class="form-group">
+            <div class="col-md-10">
+              <p>Select a picture:</p>
+              <input type="file" name="formFile" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-10">
+              <input type="submit" value="Preview" />
+            </div>
+          </div>
+        </form>
+    </div>
+
+</div>

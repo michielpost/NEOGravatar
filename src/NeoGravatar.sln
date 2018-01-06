@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeoGravatar.Web", "NeoGravatar.Web\NeoGravatar.Web.csproj", "{C051EDA7-6F2C-43D5-9498-E174D0F98CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoGravatar.Contracts", "NeoGravatar.Contracts\NeoGravatar.Contracts.csproj", "{F33D4364-A481-4513-AFD2-21832EC9BD27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoGravatar.Contracts.Tests", "NeoGravatar.Contracts.Tests\NeoGravatar.Contracts.Tests.csproj", "{4522B46F-A497-4658-9DE4-8D501E90927B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C051EDA7-6F2C-43D5-9498-E174D0F98CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C051EDA7-6F2C-43D5-9498-E174D0F98CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C051EDA7-6F2C-43D5-9498-E174D0F98CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C051EDA7-6F2C-43D5-9498-E174D0F98CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33D4364-A481-4513-AFD2-21832EC9BD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33D4364-A481-4513-AFD2-21832EC9BD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33D4364-A481-4513-AFD2-21832EC9BD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33D4364-A481-4513-AFD2-21832EC9BD27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4522B46F-A497-4658-9DE4-8D501E90927B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4522B46F-A497-4658-9DE4-8D501E90927B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4522B46F-A497-4658-9DE4-8D501E90927B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4522B46F-A497-4658-9DE4-8D501E90927B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D839802-7FDD-481F-AEE5-A27426CED433}
+	EndGlobalSection
+EndGlobal

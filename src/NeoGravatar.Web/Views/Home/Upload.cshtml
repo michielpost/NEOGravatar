@@ -1,0 +1,39 @@
+@model UploadResultViewModel
+@{
+  ViewData["Title"] = "Upload Neo Gravatar";
+}
+<h2>Upload your Neo Gravatar</h2>
+
+<div class="row">
+  <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="Upload">
+    @if (string.IsNullOrEmpty(Model.Image))
+    {
+      <div class="form-group">
+        <div class="col-md-10">
+          <p>Select a picture:</p>
+          <input type="file" name="formFile" />
+        </div>
+      </div>
+    }
+    else
+    {
+      <div class="form-group">
+        <div class="col-md-10">
+          <img src="@Model.Image" alt="Gravatar" />
+          <br />
+          <br />
+
+          <p>Private key (TESTNET ONLY):</p>
+          @Html.TextBoxFor(x => x.Address)
+          @Html.HiddenFor(x => x.Image)
+        </div>
+      </div>
+    }
+    <div class="form-group">
+      <div class="col-md-10">
+        <input type="submit" value="Submit to NEO Blockchain" />
+      </div>
+    </div>
+  </form>
+</div>
+

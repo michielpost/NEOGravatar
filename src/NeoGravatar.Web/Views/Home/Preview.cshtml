@@ -1,0 +1,15 @@
+@model PreviewViewModel
+@{
+    ViewData["Title"] = "Preview Image";
+}
+
+<div class="row">
+  <div class="col-md-3">
+    <h1>Success!</h1>
+    <p>Your gravatar is now stored on the NEO blockchain.</p>
+
+    <h2>Preview</h2>
+    <img src="@Model.Image" alt="Gravatar" />
+  </div>
+
+</div>
