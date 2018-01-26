@@ -32,10 +32,13 @@ The Smart Contract is written in C# and has two operations
 
 - Add
 This operation adds or updates a base64 image string to the storage of the smart contract. The Sha1 hash of the public address is used as storage key.
-Before adding the image to the storage, the smart contract checks if the user that is calling the smartcontract is the owner of the address he wants to submit a new image for. This is done by `Runtime.CheckWitness`
+Before adding the image to the storage, the smart contract checks if the user that is calling the smartcontract is the owner of the address he wants to submit a new image for. This is done by `Runtime.CheckWitness`  
+Parameters: operation name: 'add', creator address, base64 string
 
 - Delete
-This operation deletes an image from the smart contracts's storage. Only the owner of the address can remove the image. 
+This operation deletes an image from the smart contracts's storage. Only the owner of the address can remove the image.   
+Parameters: operation name: 'delete', creator address
+
 
 ## Website
 
