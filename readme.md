@@ -61,7 +61,9 @@ The website also hosts an endpoint which serves all the base64 images to externa
 
 ## Screenshots
 
-TODO: Include Screenshots
+![Homepage](https://raw.githubusercontent.com/michielpost/NEOGravatar/master/screenshots/01_homepage.PNG)  
+![Upload](https://raw.githubusercontent.com/michielpost/NEOGravatar/master/screenshots/02_upload.PNG)  
+![Finished](https://raw.githubusercontent.com/michielpost/NEOGravatar/master/screenshots/03_finished.PNG)  
 
 ## Roadmap
 
